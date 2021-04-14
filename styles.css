@@ -34,6 +34,12 @@ a:visited {
   bottom: 1px;
 }
 
+.footerPlaceHolder {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -46,7 +52,7 @@ a:visited {
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
+    
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
   /* Support for Safari and Chrome. */
