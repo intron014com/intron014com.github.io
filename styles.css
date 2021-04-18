@@ -27,13 +27,6 @@ a:visited {
   bottom: 3px;
   font-size: x-small;
 }
-.copimage{
-  color: grey;
-  text-align: center;
-  position: relative;
-  bottom: 1px;
-}
-
 .footerPlaceHolder {
   position: absolute;
   bottom: 0;
@@ -63,4 +56,25 @@ a:visited {
 
   /* Support for IE. */
   font-feature-settings: 'liga';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #171E28;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
 }
