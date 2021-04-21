@@ -65,6 +65,10 @@ ul {
   overflow: hidden;
   background-color: #171E28;
 }
+ul.navBar{
+  display: flex;
+  justify-content: center;
+}
 li {
   float: left;
 }
